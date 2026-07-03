@@ -2353,7 +2353,7 @@ class MainApplication(tkinter.Frame):
         self.var_sql_file = tkinter.StringVar()
         self.entry_sql_file = ttk.Entry(sql_query_lf, width=52, textvariable=self.var_sql_file)
         self.entry_sql_file.grid(row=2, column=1, sticky='w', padx=3)
-        self.entry_sql_file.columnconfigure(0, weight=1
+        self.entry_sql_file.columnconfigure(0, weight=1)
         # --ssti-query=SST..  SSTI expression to evaluate in-band on the vulnerable parameter
         self.chk_ssti_query = ttk.Checkbutton(sql_query_lf)
         self.chk_ssti_query_var = tkinter.StringVar()
